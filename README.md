@@ -172,7 +172,6 @@ The very small gap between training and test accuracy (0.21%) confirms the model
 ---
 
 ## 🖼️ Key Visualizations
-## 🖼️ Key Visualizations
 
 ### Class Distribution
 ![Class Distribution](images/class_distribution.png)
