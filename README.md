@@ -172,19 +172,25 @@ The very small gap between training and test accuracy (0.21%) confirms the model
 ---
 
 ## 🖼️ Key Visualizations
+## 🖼️ Key Visualizations
 
-All plots are saved in the `images/` folder:
+### Class Distribution
+![Class Distribution](images/class_distribution.png)
 
-- **Class Distribution** — malignant vs. benign sample counts
-- **Correlation Heatmap** — relationships between all 30 features
-- **Scaling Proof** — feature ranges before vs. after `StandardScaler`
-- **K-Selection Curve** — cross-validated accuracy across K=1 to 30
-- **Bias-Variance Tradeoff** — training vs. cross-validated accuracy across K, showing overfitting (low K) and underfitting (high K) regions
-- **Confusion Matrix** — true/false positives and negatives for the final model
-- **Decision Surface (2 features)** — KNN's decision boundary using `mean radius` vs `mean texture`
-- **Decision Surface (PCA)** — KNN's decision boundary using all 30 features compressed into 2 principal components
+### K-Selection Curve (Cross-Validation)
+![K Selection](images/knn_k_selection.png)
 
----
+### Bias-Variance Tradeoff
+![Bias Variance Tradeoff](images/bias_variance_tradeoff.png)
+
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
+### Decision Surface (2 Features)
+![Decision Surface 2 Features](images/decision_surface_2features.png)
+
+### Decision Surface (PCA)
+![Decision Surface PCA](images/decision_surface_pca.png)
 
 ## ⚖️ Overfitting / Underfitting Check
 
